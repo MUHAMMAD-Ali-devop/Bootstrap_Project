@@ -1,0 +1,138 @@
+/* style sheet */
+html{
+    scroll-behavior:smooth;
+  }
+  #main{
+      background-image: url(Assets/hero-bg-mobile.png);
+      background-repeat: no-repeat;
+      background-size:100% 100%;
+    opacity:1;
+      
+  }
+  
+  #wline::before {
+      content: '';
+      background-image: url(Assets/heroArch.png);
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      background-position: center;
+      position: absolute;
+      top: 0px;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      opacity: 0.6;
+  }
+   #hee1{
+      color:white;
+  }
+  @media only screen and (max-width: 600px) {
+     
+   #hee1{
+        color:#6B60EB; 
+      }
+    }
+    #hee2{
+      color:white;
+  }
+  @media only screen and (max-width: 600px) {
+      
+   #hee2{
+        color:#6B60EB;
+      }
+    }
+  #btn-connect{
+      color:#6B60EB;
+  }
+  #btn-connect:hover{
+      background-color: #6B60EB;
+      color:white;
+  }
+  #explr{
+      color: white;
+      background-image: linear-gradient(to right, #6B60EB, #CE5FE5);
+      margin: 4px;
+      width: 250px;
+      text-align: center;
+      display: inline-block;
+  }
+  #pblsh{
+      color:rgb(186, 105, 190);
+      background-color:white;
+      margin: 4px;
+      width: 250px;
+      text-align: center;
+      display: inline-block;
+  }
+  #pblsh:hover{
+      color: white;
+      background-color:rgb(186, 105, 190);
+  }
+  #works{
+      color:#7D75D8;
+  }
+  #contact-btn{
+      background-image: linear-gradient(to right, #6B60EB, #CE5FE5);
+      width: 245px;
+      height: 64px;
+      border-radius: 8px;
+      font-family: Prata;
+      color:white;
+  }
+    #alx{
+      width:400px;
+      height: 75px;
+    }
+    .book{
+      background-color: #7D75D8;
+      margin:200px 0px;
+      width: 1220px;
+      height:auto;
+      border-radius: 24px;
+    }
+    .book1{
+  padding: 10px 70px;
+    }
+    /* #pgimg{ */
+      /* vertical-align: sup; */
+    /* } */
+    .btnpblsh{
+      font-family:Open Sans;
+      font-size: 20px;
+      background-image: linear-gradient(to right, #6B60EB, #CE5FE5);
+    }
+    div #pgimg{
+      position: relative;
+      bottom: 150px;
+    }
+    #sec3{
+      background-color:#F1F0F9;
+    }
+    div #pencil{
+  position: relative;
+  bottom:150px;
+    }
+  #snd{
+    background-color:#7D75D8;
+    border: none;
+    height: 52px;
+    width:138px;
+    border-radius:8px;
+    font-family:Prata;
+    color:white;
+  }
+  #sbmt{
+    padding-left: 20px;
+  }
+  .smt{
+    width:394px;
+    height:52px;
+    border: none;
+  }
+  .cntf{
+    background-color:#0E0F1E;
+    Width:100%;
+    height:100%px;
+    
+  }
+                          
